@@ -2,7 +2,8 @@ import React from 'react';
 import {
   Text,
   View,
-  Button
+  Button,
+  Alert
 } from 'react-native';
 
 import CustomComponent from './components/CustomComponent';
@@ -17,6 +18,10 @@ import Information from './components/information';
 
 const App = ()=>{
   const name = 'Sakib ';
+  const handlePress = () => {
+    Alert.alert('Button Pressed!');
+    // Perform additional actions or logic here
+  };
   return (
 
     ////////////                REACT NATIVE CORE  UI COMPONENTS        //////////////////////////
@@ -42,8 +47,18 @@ const App = ()=>{
       <CustomComponent />
       <Information />
 
+  
+
+   
+    <View>
+      <Button title="Press Me" onPress={handlePress} />
+    </View>
+  
+
     </View>
   )
+
+  
 }
 
 

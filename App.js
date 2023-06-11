@@ -5,25 +5,9 @@ import {
   Button
 } from 'react-native';
 
-const name ="Sakib ";
+import CustomComponent from './components/CustomComponent';
 
-const email = ()=>{
-
-const value = "junaedjunaed25@gmail.com";
-  return value;
-}
-
-const Cat = () => {
-  return (
-    <View>
-      <Text>I am also a cat!</Text>
-    </View>
-  );
-};
-
-
-
-
+import Information from './components/information';
 
 // Here, a functional component named App is defined. It uses an arrow function syntax (() => {}) to define the component. The component returns JSX code wrapped inside a View component, which acts as a container for other components.
 
@@ -32,6 +16,7 @@ const Cat = () => {
 //JSX (JavaScript XML) is an extension to JavaScript syntax that allows you to write HTML-like code within JavaScript. It's a syntax extension used in React (including React Native) to describe the structure and appearance of UI components.Any JavaScript expression will work between curly braces, including function calls.
 
 const App = ()=>{
+  const name = 'Sakib ';
   return (
 
     ////////////                REACT NATIVE CORE  UI COMPONENTS        //////////////////////////
@@ -47,22 +32,15 @@ const App = ()=>{
     //<ScrollView> (div) : A generic scrolling container that can contain multiple components and views
 
     //<TextInput> (<input type="text">) : Allows the user to enter text
-
+    
     <View>
-    <Text style={{fontSize:50}}>hello {name} </Text> 
-
-
-    <Button title="Press here" onPress={() => console.log('Button pressed')} />
-
-
-    <Text style={{fontSize:20}}> My Email :{email()}  </Text> 
-
-    <Button title="Press here Again" onPress={() => console.log('Button pressed Again')} />
-
-    <Text>Welcome!</Text>
-      <Cat />
-      <Cat />
-     
+      <Text style={{ fontSize: 50 }}>hello {name} </Text>
+      <Button title="Press here" onPress={() => console.log('Button pressed')} />
+      
+      <Button title="Press here Again" onPress={() => console.log('Button pressed Again')} />
+      <Text>Office data</Text>
+      <CustomComponent />
+      <Information />
 
     </View>
   )

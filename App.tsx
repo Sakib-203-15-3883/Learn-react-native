@@ -13,18 +13,28 @@ const value = "junaedjunaed25@gmail.com";
   return value;
 }
 
+const Cat = () => {
+  return (
+    <View>
+      <Text>I am also a cat!</Text>
+    </View>
+  );
+};
+
+
+
 
 
 // Here, a functional component named App is defined. It uses an arrow function syntax (() => {}) to define the component. The component returns JSX code wrapped inside a View component, which acts as a container for other components.
 
 // Inside the View, there are three Text components, each with different font sizes (50, 30, and 20). They contain the text content you provided as a message for your first React app.
 
-//JSX (JavaScript XML) is an extension to JavaScript syntax that allows you to write HTML-like code within JavaScript. It's a syntax extension used in React (including React Native) to describe the structure and appearance of UI components.
+//JSX (JavaScript XML) is an extension to JavaScript syntax that allows you to write HTML-like code within JavaScript. It's a syntax extension used in React (including React Native) to describe the structure and appearance of UI components.Any JavaScript expression will work between curly braces, including function calls.
 
 const App = ()=>{
   return (
 
-    ////////////                REACT NATIVE CORE  UI COMPONENT        //////////////////////////
+    ////////////                REACT NATIVE CORE  UI COMPONENTS        //////////////////////////
 
 
 
@@ -48,6 +58,11 @@ const App = ()=>{
     <Text style={{fontSize:20}}> My Email :{email()}  </Text> 
 
     <Button title="Press here Again" onPress={() => console.log('Button pressed Again')} />
+
+    <Text>Welcome!</Text>
+      <Cat />
+      <Cat />
+     
 
     </View>
   )

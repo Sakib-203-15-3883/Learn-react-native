@@ -1,18 +1,18 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+// import React from 'react';
+// import { View, Text } from 'react-native';
 
-const CustomComponent = () => {
-  return (
-    <View>
-      <Text> companyName : Samsung  </Text>
-      <Text> Location : Dhaka </Text>
-      <Text> Product: Mobile</Text>
+// const CustomComponent = () => {
+//   return (
+//     <View  >
+//       <Text style={{fontSize:20}}> companyName : Samsung  </Text>
+//       <Text style={{fontSize:20}}> Location : Dhaka </Text>
+//       <Text style={{fontSize:20}}> Product: Mobile</Text>
 
-    </View>
-  );
-};
+//     </View>
+//   );
+// };
 
-export default CustomComponent;
+// export default CustomComponent;
 
 
 

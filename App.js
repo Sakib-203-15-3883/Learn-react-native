@@ -138,7 +138,7 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    padding: 21,
     justifyContent: 'center',
     alignItems: 'center',
     marginLeft:5,

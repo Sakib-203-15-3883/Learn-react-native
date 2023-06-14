@@ -213,4 +213,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default calculator;
+ export default calculator;

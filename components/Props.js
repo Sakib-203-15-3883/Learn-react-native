@@ -1,3 +1,5 @@
+//In React Native, props (short for "properties") are used to pass data from a parent component to a child component. They allow you to customize the behavior and appearance of the child component based on the values received from the parent component. Props are read-only and cannot be modified by the child component.
+
 // 1. Props Passing:
 
 // Props are passed from a parent component to a child component by including them as attributes in the JSX element.

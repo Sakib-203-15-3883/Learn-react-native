@@ -1,4 +1,6 @@
-// state which stores the value for component. it,s mutable . we first initialize the sate in the constructor and then we call setState whenever we need to change the value .  
+// state which stores the value for component. it,s mutable . we first initialize the sate in the constructor and then we call setState whenever we need to change the value .
+
+//In React Native, when a component's state or props change, it triggers a re-rendering of that component and its child components. This re-rendering process is known as reconciliation.
 
 import React, { useState } from 'react';
 import { View, Text, Button } from 'react-native';

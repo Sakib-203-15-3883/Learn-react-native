@@ -1,3 +1,5 @@
+//In React Native, when a component's state or props change, it triggers a re-rendering of that component and its child components. This re-rendering process is known as reconciliation.
+
 //In React Native, props  are used to pass data from a parent component to a child component. They allow you to customize the behavior and appearance of the child component based on the values received from the parent component. Props are read-only and cannot be modified by the child component.
 
 // 1. Props Passing:

@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { Component, useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 //Any component that renders other components is a parent component. Here, App is the parent component and Calculator is a child component.
 
 import Calculator from './components/calculator';
+import Jsx from './components/jsx';
+import Components  from './components/components';
 // import Props from './components/Props';
 
  const App = () => {
@@ -10,9 +12,10 @@ import Calculator from './components/calculator';
 //   const age = 30;
 //   const hobbies = ['Reading', 'Gardening', 'Cooking'];
 
-  return <Calculator/>
+  // return <Calculator/>
+  // return <Jsx/>
+  return <Components/>
   
-
 };
 
 export default App;

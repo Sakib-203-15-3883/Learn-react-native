@@ -1,6 +1,8 @@
+//There are two types of data state and props in React Native which control the component. The component that uses the state is mutable. They can be changed later on if required. The props component is immutable, and it is fixed throughout the lifetime
+
 //In React Native, when a component's state or props change, it triggers a re-rendering of that component and its child components. This re-rendering process is known as reconciliation.
 
-//In React Native, props  are used to pass data from a parent component to a child component. They allow you to customize the behavior and appearance of the child component based on the values received from the parent component. Props are read-only and cannot be modified by the child component.
+//In React Native, props  are used to pass data from a parent component to a child component(child to parent also possible but complicated ). They allow you to customize the behavior and appearance of the child component based on the values received from the parent component. Props are read-only and cannot be modified by the child component.
 
 // 1. Props Passing:
 
@@ -22,13 +24,13 @@ import { View, Text } from 'react-native';
 
 const Props = (props) => {
   
-    const { name, age, hobbies } = props;
+    const { Name, Age, Hobby } = props;
 
   return (
     <View>
-      <Text>Name: {name}</Text>
-      <Text>Age: {age}</Text>
-      <Text>Hobbies: {hobbies.join(', ')}</Text>
+      <Text>Name: {Name}</Text>
+      <Text>Age: {Age}</Text>
+      <Text>Hobbies: {Hobby[2]}</Text>
     </View>
   );
 };
